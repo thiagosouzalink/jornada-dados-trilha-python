@@ -3,6 +3,8 @@ from collections import defaultdict, Counter
 from tqdm import tqdm  # barra de progresso
 import time
 
+from get_file import get_measurements_file
+
 NUMERO_DE_LINHAS = 1_000_000_000
 
 def processar_temperaturas(path_do_csv):
@@ -42,7 +44,7 @@ def processar_temperaturas(path_do_csv):
 
 
 if __name__ == "__main__":
-    path_do_csv = "data/measurements.txt"
+    path_do_csv = get_measurements_file()
 
     print("Iniciando o processamento do arquivo.")
     start_time = time.time()  # Tempo de início
