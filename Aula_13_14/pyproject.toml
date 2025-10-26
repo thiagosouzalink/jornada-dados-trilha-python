@@ -1,0 +1,19 @@
+[project]
+name = "jornada-de-dados-aula-13-14"
+version = "0.1.0"
+description = "Jornada de Daados - Aulas 13 e 14"
+authors = [
+    {name = "Thiago Souza",email = "thiagolsmail@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "schedule (>=1.2.2,<2.0.0)",
+    "boto3 (>=1.40.59,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
