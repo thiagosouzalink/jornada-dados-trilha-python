@@ -1,0 +1,22 @@
+[project]
+name = "jornada-de-dados-aula-15"
+version = "0.1.0"
+description = "Jornada de Dados - Aula 15"
+authors = [
+    {name = "Thiago Souza",email = "thiagolsmail@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "boto3 (>=1.40.60,<2.0.0)",
+    "schedule (>=1.2.2,<2.0.0)",
+    "fastapi (>=0.120.1,<0.121.0)",
+    "faker (>=37.12.0,<38.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
