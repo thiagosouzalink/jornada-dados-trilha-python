@@ -1,0 +1,18 @@
+[project]
+name = "jornada-de-dados-aula-19"
+version = "0.1.0"
+description = "Jornada de Dados - Aula 19"
+authors = [
+    {name = "Thiago Souza",email = "thiagolsmail@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard] (>=0.120.4,<0.121.0)",
+    "sqlalchemy (>=2.0.44,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
