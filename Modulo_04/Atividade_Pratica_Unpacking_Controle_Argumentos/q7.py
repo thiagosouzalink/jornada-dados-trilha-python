@@ -166,3 +166,14 @@ partida = registrar_jogo(
     **dados
 )
 print(partida)
+
+"""
+*eventos: Recebe vários argumentos posicionais como eventos
+
+*times: Desempacotamento dos valores da lista time como argumentos
+
+**informacoes: Inúmeros arqgumentos nomeados passados para a função
+
+** dados: desempacotamento do dicionário como arqgumentos nomeados para a
+função
+"""
