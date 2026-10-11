@@ -1,0 +1,22 @@
+[project]
+name = "Projeto_01"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Thiago Souza"}]
+requires-python = "==3.12.1"
+readme = "README.md"
+dependencies = [
+    "polars==0.20.3",
+    "duckdb==0.10.0",
+    "modin[dask]>=0.27.0,<0.28",
+    "dask[complete]>=2024.2.0,<2025",
+    "dask-expr>=0.4.2,<0.5",
+    "tqdm>=4.66.2,<5",
+]
+
+[build-system]
+requires = ["uv_build>=0.10.8,<0.11.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
