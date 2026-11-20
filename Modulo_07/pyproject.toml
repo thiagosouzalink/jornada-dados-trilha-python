@@ -1,0 +1,10 @@
+[project]
+name = "sqlachemyexemplo"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Thiago Souza" }]
+requires-python = ">=3.11,<4"
+readme = "README.md"
+
+dependencies = ["sqlalchemy>=2.0.28,<3"]
+
