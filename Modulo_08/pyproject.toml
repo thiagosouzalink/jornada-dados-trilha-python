@@ -1,0 +1,13 @@
+[project]
+name = "modulo-08"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Thiago Souza" }]
+requires-python = ">=3.11,<4"
+readme = "README.md"
+dependencies = [
+    "requests>=2.31.0,<3",
+    "sqlalchemy>=2.0.28,<3",
+    "pydantic>=2.6.4,<3",
+    "fastapi[standard]>=0.165.0",
+]
